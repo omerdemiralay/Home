@@ -1,0 +1,39 @@
+label {
+  margin: 10px 0px !important ;
+}
+
+.container {
+  margin: 20px auto;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+}
+
+.form-group,
+.form-check {
+  margin: auto !important;
+}
+
+button {
+  display: inline-block !important;
+  width: auto;
+  border: 0;
+  margin: auto !important;
+}
+p,
+label {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.btn {
+  width: 40%;
+  margin-bottom: 5% !important;
+}
+.buttons, .gender {
+  display: flex;
+  justify-content: space-evenly !important;
+}
+
+.gender input,p {
+    margin-top: 10px !important;
+}
