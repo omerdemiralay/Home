@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/01cafdc0cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="article">
+      <div class="header">
+        <h2 class="fontSize">Home</h2>
+        <i class="far fa-bell"></i>
+      </div>
+      <div class="balance">
+        <p class="fontSize">$1,345.17</p>
+        <p class="fontSize-sml">$0,9998393</p>
+
+        <div class="buttons">
+          <button>Add Money</button><button>Withrow</button>
+        </div>
+      </div>
+
+      <div class="top-coins balance">
+        <div class="header2">
+          <h3>Top Coins</h3>
+          <i class="fas fa-wallet"></i>
+        </div>
+        <div class="coins">
+          <div class="bitcoin border">
+            <h4>Bitcoin</h4>
+            <i class="fab fa-bitcoin"></i>
+          </div>
+          <div class="ethereum border">
+            <h4>Ethereum</h4>
+            <i class="fab fa-ethereum"></i>
+          </div>
+          <div class="tenge border">
+            <h4>Tenge</h4>
+            <i class="fas fa-tenge"></i>
+          </div>
+        </div>
+
+        <form
+          action="https://httpbin.org/post
+          "
+          method="POST"
+        >
+          <div class="form-row">
+            <label for="adi">Adınız ve soyadınız</label>
+            <input
+              name="adi"
+              type="text"
+              id="adi"
+              placeholder="Adınız ve Soyadınız"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="tel">Telefon</label>
+            <input
+              name="tel"
+              type="tel"
+              id="tel"
+              placeholder="Telefon Numaranız"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input
+              name="email"
+              type="email"
+              id="email"
+              placeholder="E-mail Adresiniz"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="mesaj">Mesaj</label>
+            <textarea name="mesaj" id="mesaj" rows="3"></textarea>
+          </div>
+
+          <div class="form-row">
+            <label for="sehir">Yaşadığınız şehir</label>
+            <select name="sehir" id="sehir">
+              <option value="İstanbul">İstanbul</option>
+              <option value="İzmir">İzmir</option>
+              <option value="Ankara">Ankara</option>
+              <option value="Sakarya">Sakarya</option>
+              <option value="Edirne">Edirne</option>
+              <option value="Van">Van</option>
+              <option value="Adana">Adana</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="radio-container">
+              <p>En sevdiğiniz renk</p>
+              <label
+                ><input
+                  type="radio"
+                  name="renk"
+                  value="kirmizi"
+                />Kırmızı</label
+              >
+              <label><input type="radio" name="renk" value="mavi" />Mavi</label>
+              <label
+                ><input type="radio" name="renk" value="yesil" />Yeşil</label
+              >
+            </div>
+          </div>
+
+          <div class="form-row">
+            <button type="reset">Sıfırla</button>
+            <button type="Submit">Gönder</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
