@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 98%);
+}
+
+form h2 {
+  display: inline-flex;
+  color: white;
+}
+
+form div {
+  text-align: center;
+  font-size: 1.5rem;
+}
+form {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  max-width: 30%;
+  margin: auto;
+  top: 10vw;
+}
+form .group {
+  margin-top: 8vw;
+}
+input {
+  border: none;
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 70%;
+  height: 30px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 15px;
+}
+
+button {
+  border: none;
+  display: block;
+  margin: 8vw auto 5vw auto;
+  width: 40%;
+  height: 30px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 15px;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.logo {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin: 1.5%;
+}
+
+a {
+  /* position: relative; */
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
