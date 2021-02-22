@@ -1,0 +1,108 @@
+.panel {
+  border: 1px solid rgb(211, 221, 221);
+
+  width: 60vw;
+  margin: 4vw auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  box-sizing: border-box;
+  margin: 40px;
+  font-size: 2.75em;
+}
+
+p {
+  font-size: 0.875em;
+  display: inline-block;
+}
+
+h4 {
+  font-size: 1.1875em;
+  color: rgb(85, 85, 85);
+  position: relative;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  height: 30px;
+  line-height: 30px;
+}
+h4 span {
+  position: absolute;
+  top: 13px;
+  background: white;
+  left: 48%;
+  padding: 0 2%;
+}
+
+button[class="login"] {
+  display: block;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin: 20px 0;
+  font-size: 1em;
+  width: 127.484px;
+  height: 42px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="checkbox"]{
+  cursor: pointer;
+}
+button[class="withFigma"] {
+  height: 46px;
+  width: 238.991px;
+  font-size: 1em;
+  padding: 12px 15px;
+  margin: 20px auto 70px auto;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+button svg {
+  transform: scale(0.6);
+  margin: 0;
+  align-items: center;
+}
+div a {
+  color: rgb(85, 85, 85);
+}
+
+h4 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.875em;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-bottom: 10px;
+  height: 23px;
+  box-sizing: content-box;
+  border: 1px solid rgb(179, 179, 179);
+  outline: none;
+  width: 401px;
+  padding: 9px 30px 9px 15px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border: 1px solid rgb(102, 175, 233);
+}

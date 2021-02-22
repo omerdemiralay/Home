@@ -1,0 +1,45 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.icon img {
+    width: 80px;
+}
+
+.menu svg {
+  width: 20px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  border-bottom: 1px solid rgb(211, 221, 221);
+  
+}
+
+.header a, 
+svg {
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+  margin-right: 2vw;
+}
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+} 
+
+
+
